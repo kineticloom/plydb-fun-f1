@@ -1,7 +1,7 @@
-# F1 Data Analysis
+# F1 Analyst
 
-Ask questions about F1 data in plain English and get real answers — no SQL
-required. Your AI agent (e.g. Claude Code) figures out the query; you just ask.
+Bring your own AI agent and ask questions about F1 data in plain English — no
+SQL required.
 
 ```
 > Which driver gained the most positions on average from grid to finish in 2024?
@@ -151,7 +151,8 @@ cp plydb-config-example.json plydb-config.json
 ```
 
 In your copy, remove the datasets that you have not downloaded or do not plan to
-use in your analysis.
+use in your analysis. You can either do this manually, or ask your AI agent to
+make the edits for you.
 
 The overlay is already wired into the config. Your agent will load it
 automatically and understand things like: `_ns` columns are nanoseconds,
